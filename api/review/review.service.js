@@ -61,7 +61,7 @@ function _buildCriteria(filterBy) {
   const criteria = {}
   // console.log(`Object.keys(filterBy) = `, Object.keys(filterBy))
  if(Object.keys(filterBy).length){
-   console.log(`filterBy = `, filterBy)
+  //  console.log(`filterBy = `, filterBy)
    if(filterBy.userId) criteria.userId=filterBy.userId
    else criteria.toyId=filterBy.toyId
   }
